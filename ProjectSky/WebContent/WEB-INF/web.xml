@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+	<!-- 첫 진입 페이지 -->
+	<welcome-file-list>
+		<welcome-file>door</welcome-file>
+		<welcome-file>skymanlab.jsp</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+	</welcome-file-list>
+
+	<!-- ================= Servlet 파일 url 매핑 ================= -->
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>Servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/loginService</url-pattern>
+	</servlet-mapping>
+
+	<!-- ================= jsp 파일 url 매핑 ================= -->
+
+	<!-- 1. jspDoor.jsp => door -->
+	<servlet>
+		<servlet-name>jspDoor</servlet-name>
+		<jsp-file>/jspDoor.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jspDoor</servlet-name>
+		<url-pattern>/door</url-pattern>
+	</servlet-mapping>
+
+	<!-- 2. jspDashboard.jsp => dashboard -->
+	<servlet>
+		<servlet-name>jspDashboard</servlet-name>
+		<jsp-file>/jspDashboard.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jspDashboard</servlet-name>
+		<url-pattern>/dashboard</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 3. jspPageFormat => pageFormat -->
+	<servlet>
+		<servlet-name>jspPageFormat</servlet-name>
+		<jsp-file>/jspPageFormat.jsp</jsp-file>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jspPageFormat</servlet-name>
+		<url-pattern>/pageFormat</url-pattern>
+	</servlet-mapping>
+</web-app>
