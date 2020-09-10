@@ -38,8 +38,7 @@
 
 <html lang="ko">
 
-<!--                                           HEAD                                           -->
-<!-- 
+<!-- 										HEAD
      ========================================================================================
     1. viewport
     2. apple-touch-icon
@@ -93,11 +92,17 @@
      href="./assets/demo/demo.css"
      rel="stylesheet"
 />
+
+<!-- 
+     ========================================================================================
+     javascript
+     ======================================================================================== 
+  -->
+  
 </head>
 
 
-<!--                                           BODY                                           -->
-<!-- 
+<!-- 									BODY
      ========================================================================================
      1. body / class / white-content:화면 전체 색을 흰색으로
      2. 순서 / Wrapper( Sidebar -> Main Panel ( Navbar -> Navbar search modal -> Content ( 내용 -> footer ) ) )
@@ -149,7 +154,7 @@
                               5. Page Format
                               ========================================================================================
                            -->
-                         <li class="active "><a href=<%=PageManager.JSP_DASHBOARD%>> <i class="tim-icons icon-chart-pie-36"></i>
+                         <li ><a href=<%=PageManager.JSP_DASHBOARD%>> <i class="tim-icons icon-chart-pie-36"></i>
                                    <p>Dashboard</p>
                          </a></li>
 
@@ -164,7 +169,7 @@
                          <li><a href=<%=PageManager.JSP_TEST_PAGE%>> <i class="tim-icons icon-alert-circle-exc"></i>
                                    <p>Test Page</p>
                          </a></li>
-                         <li><a href=<%=PageManager.JSP_PAGE_FORMAT%>> <i class="tim-icons icon-components"></i>
+                         <li class="active "><a href=<%=PageManager.JSP_PAGE_FORMAT%>> <i class="tim-icons icon-components"></i>
                                    <p>Page Format</p>
                          </a></li>
 
@@ -479,8 +484,7 @@
      <!-- ./End of [[[Wrapper]]] -->
 
 
-     <!--                                           BODY Script                                          -->
-     <!-- 
+     <!-- 								BODY Script
      ========================================================================================
      1. Core JS Files
      2. Place this tag in your head or just before your close body tag.

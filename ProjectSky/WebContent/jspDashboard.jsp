@@ -38,8 +38,7 @@
 
 <html lang="ko">
 
-<!--                                           HEAD                                           -->
-<!-- 
+<!-- 										HEAD
      ========================================================================================
     1. viewport
     2. apple-touch-icon
@@ -93,11 +92,17 @@
      href="./assets/demo/demo.css"
      rel="stylesheet"
 />
+
+<!-- 
+     ========================================================================================
+     javascript
+     ======================================================================================== 
+  -->
+  
 </head>
 
 
-<!--                                           BODY                                           -->
-<!-- 
+<!-- 									BODY 
      ========================================================================================
      1. body / class / white-content:화면 전체 색을 흰색으로
      2. 순서 / Wrapper( Sidebar -> Main Panel ( Navbar -> Navbar search modal -> Content ( 내용 -> footer ) ) )
@@ -166,46 +171,6 @@
                          </a></li>
                          <li><a href=<%=PageManager.JSP_PAGE_FORMAT %>> <i class="tim-icons icon-components"></i>
                                    <p>Page Format</p>
-                         </a></li>
-
-                         <!-- Dropdown menu -->
-                         <li><a
-                              data-toggle="collapse"
-                              href="#collapseExample"
-                              aria-expanded="false"
-                              aria-controls="collapseExample"
-                              class="dropdown-toggle nav-link"
-                              data-toggle="dropdown"
-                         > <i class="tim-icons icon-refresh-02"></i> Menu up
-                         </a></li>
-                         <div
-                              class="container collapse"
-                              id="collapseExample"
-                         >
-                              <div class="card ">
-                                   <div class="card-body">
-                                        <h6>Sub Menu</h6>
-                                        <hr class="my-0">
-                                        <li><a
-                                             class="my-0"
-                                             href="javascript:void(0)"
-                                        > <i
-                                                  class="tim-icons icon-single-02"
-                                                  style="color: #6c757d"
-                                             ></i>
-                                                  <p style="color: #6c757d">Menu Down 1</p>
-                                        </a></li>
-                                   </div>
-                              </div>
-                         </div>
-                         <!-- ./End of Dropdown menu -->
-
-                         <li class="active-pro"><a href="javascript:void(0)"> <i class="tim-icons icon-world"></i>
-                                   <p>RTL Support</p>
-                         </a></li>
-
-                         <li class="active-pro"><a href=".javascript:void(0)"> <i class="tim-icons icon-spaceship"></i>
-                                   <p>Upgrade to PRO</p>
                          </a></li>
                     </ul>
                </div>
@@ -816,8 +781,7 @@
      <!-- ./End of [[[Wrapper]]] -->
 
 
-     <!--                                           BODY Script                                          -->
-     <!-- 
+     <!-- 								BODY Script 
      ========================================================================================
      1. Core JS Files
      2. Place this tag in your head or just before your close body tag.

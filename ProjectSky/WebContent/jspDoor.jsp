@@ -35,8 +35,7 @@
 
 <html lang="ko">
 
-<!--                                           HEAD                                           -->
-<!-- 
+<!-- 										HEAD 
      ========================================================================================
     1. viewport
     2. apple-touch-icon
@@ -90,11 +89,17 @@
      href="./assets/demo/demo.css"
      rel="stylesheet"
 />
+
+<!-- 
+     ========================================================================================
+     javascript
+     ======================================================================================== 
+  -->
+  
 </head>
 
 
-<!--                                           BODY                                           -->
-<!-- 
+<!-- 									BODY
      ========================================================================================
      1. body / class / white-content:화면 전체 색을 흰색으로
      2. 순서 / Wrapper( Sidebar->Main Panel ( Navbar->Navbar search modal->Content) )
@@ -162,10 +167,6 @@
                          <li><a href=<%=PageManager.JSP_PAGE_FORMAT %>> <i class="tim-icons icon-components"></i>
                                    <p>Page Format</p>
                          </a></li>
-
-                         
-                         <!-- ./End of Dropdown menu -->
-
                     </ul>
                </div>
           </div>
@@ -369,9 +370,7 @@
      <!-- ./End of [[[Wrapper]]] -->
 
 
-
-     <!--                                           BODY Script                                          -->
-     <!-- 
+     <!-- 								BODY Script 
      ========================================================================================
      1. Core JS Files
      2. Place this tag in your head or just before your close body tag.

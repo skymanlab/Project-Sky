@@ -53,4 +53,14 @@
 		<servlet-name>jspPageFormat</servlet-name>
 		<url-pattern>/pageFormat</url-pattern>
 	</servlet-mapping>
+	
+	<!-- 4. jspUserInfo => userInfo -->
+	<servlet>
+		<servlet-name>jspUserProfile</servlet-name>
+		<jsp-file>/jspUserProfile.jsp</jsp-file>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jspUserProfile</servlet-name>
+		<url-pattern>/userProfile</url-pattern>
+	</servlet-mapping>
 </web-app>
