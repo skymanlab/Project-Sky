@@ -154,13 +154,13 @@
                               5. Page Format
                               ========================================================================================
                            -->
-					<li><a href=<%=PageManager.JSP_DASHBOARD%>> <i
-							class="tim-icons icon-chart-pie-36"
-						></i>
+					<li><a href=<%=PageManager.JSP_DASHBOARD%>> <i class="tim-icons icon-chart-pie-36"></i>
 							<p>Dashboard</p>
 					</a></li>
 
-					<li class="active "><a href=<%=PageManager.JSP_USER_PROFILE%>> <i class="tim-icons icon-single-02"></i>
+					<li class="active "><a href=<%=PageManager.JSP_USER_PROFILE%>> <i
+							class="tim-icons icon-single-02"
+						></i>
 							<p>User Profile</p>
 					</a></li>
 
@@ -387,7 +387,10 @@
                                                        내                                                                용                    
                          ==================================================
                     -->
+				<h2>User Profile</h2>
+
 				<div class="row">
+
 					<div class="col-md-8">
 						<div class="card">
 							<div class="card-header">
@@ -516,53 +519,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="card card-user">
-							<div class="card-body">
-								<p class="card-text">
-								<div class="author">
-									<div class="block block-one"></div>
-									<div class="block block-two"></div>
-									<div class="block block-three"></div>
-									<div class="block block-four"></div>
-									<a href="javascript:void(0)"> <img
-										class="avatar"
-										src="../assets/img/emilyz.jpg"
-										alt="..."
-									>
-										<h5 class="title">Mike Andrew</h5>
-									</a>
-									<p class="description">Ceo/Co-Founder</p>
-								</div>
-								</p>
-								<div class="card-description">Do not be scared of the truth because we need to restart
-									the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed
-									design but the back is...</div>
-							</div>
-							<div class="card-footer">
-								<div class="button-container">
-									<button
-										href="javascript:void(0)"
-										class="btn btn-icon btn-round btn-facebook"
-									>
-										<i class="fab fa-facebook"></i>
-									</button>
-									<button
-										href="javascript:void(0)"
-										class="btn btn-icon btn-round btn-twitter"
-									>
-										<i class="fab fa-twitter"></i>
-									</button>
-									<button
-										href="javascript:void(0)"
-										class="btn btn-icon btn-round btn-google"
-									>
-										<i class="fab fa-google-plus"></i>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
+
 				</div>
 				<!-- 
                          ==================================================
